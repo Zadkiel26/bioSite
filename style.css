@@ -1,0 +1,16 @@
+img 
+{
+    width: 300px;
+}
+
+.Content
+{
+    display: flex;
+    align-items: center;
+}
+
+p
+{
+    padding-left: 20px;
+    width: 500px;
+}
