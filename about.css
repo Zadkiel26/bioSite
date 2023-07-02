@@ -1,0 +1,112 @@
+body
+{
+    margin: 0 auto;
+}
+
+.grid-container
+{
+    display: grid;
+    grid-template-areas: 'header header header header header'
+                         'content content content content content'
+                         'footer footer footer footer footer';
+    align-content: center;
+    height: auto;
+}
+
+.header
+{
+    grid-area: header;
+}
+
+.nav
+{
+    padding: 0.5em;
+    text-align: center;
+    font-size: 30px;
+    background-color: #01383D;
+    text-transform: uppercase;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+li
+{
+    list-style-type: none;
+    display: inline;
+    padding: 0.2em;   
+}
+
+.nav a
+{
+    text-decoration: none;
+    color: #bceae7;
+}
+
+.nav a:hover
+{
+    color: #8cb6b3; 
+}
+
+.content
+{
+    grid-area: content;
+    color: #516360;
+}
+
+.indent-word
+{
+    margin-left: 30px;
+}
+
+.top-content
+{
+    display: grid;
+    grid-template-areas: 'image description description description description'
+                         'image description description description description'
+                         'image description description description description'
+                         'image description description description description';
+    background-color: #d3c6b7;
+}
+
+.portrait-image
+{
+    grid-area: image;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    width: 700px;
+    height: 1000px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.30);
+}
+
+.bio-paragraph
+{
+    grid-area: description;
+    margin-top: 15%;
+    font-size: 25px;
+    margin-left: 40px;
+    width: 90%;
+    font-family: "Playfair Display", sans-serif;
+}
+
+.footer
+{
+    background-color: #01383D;
+    grid-area: footer;
+}
+
+.footer ul 
+{
+    justify-content: center;
+    text-align: center;
+}
+
+.footer ul li 
+{
+    display: inline-block;
+}
+
+.footer-logo
+{
+    width: 40px;
+}
