@@ -153,6 +153,8 @@ body
     text-align: center;
     font-size: 50px;
     color: #01383D;
+    text-transform: uppercase;
+    font-family: "Source Sans 3", sans-serif;
 }
 
 .inspiration-description
