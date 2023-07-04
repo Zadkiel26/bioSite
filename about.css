@@ -25,23 +25,23 @@ body
     font-size: 30px;
     background-color: #01383D;
     text-transform: uppercase;
-    font-family: "Source Sans 3", sans-serif;
+    font-family: "Playfair Display", sans-serif;
 }
 
-li
+.nav li
 {
     list-style-type: none;
     display: inline;
     padding: 0.2em;   
 }
 
-.nav a
+.header-link
 {
     text-decoration: none;
     color: #bceae7;
 }
 
-.nav a:hover
+.header-link:hover
 {
     color: #8cb6b3; 
 }
@@ -49,7 +49,7 @@ li
 .content
 {
     grid-area: content;
-    color: #516360;
+    color: #01383D;
 }
 
 .indent-word
@@ -86,7 +86,8 @@ li
     font-size: 25px;
     margin-left: 40px;
     width: 90%;
-    font-family: "Playfair Display", sans-serif;
+    font-family: "Source Sans 3", sans-serif;
+    word-spacing: 0.2em;
 }
 
 .footer
