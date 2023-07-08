@@ -100,7 +100,7 @@ body
 
 .accomplishment-image
 {
-    margin-right: 400px;
+    margin-right: 200px;
     width: 400px;
     height: 500px;
     grid-area: image;
@@ -189,3 +189,238 @@ body
 {
     width: 40px;
 }
+
+@media screen and (max-width: 1440px) 
+{
+
+    .top-content-description
+    {
+        font-size: 51px;
+        margin-left: 0;
+    }
+
+    .portrait-image
+    {
+        width: 500px;
+        height: 700px;
+        margin-left: 75px;
+    }
+
+    .accomplishment-image
+    {
+        margin-right: 100px;
+    }
+
+    .middle-content-description
+    {
+        font-size: 40px;
+        margin-left: 60px;
+        margin-top: 125px;
+    }
+
+    .middle-content-button
+    {
+        margin-left: 30%;
+    }
+
+    .hobby-image
+    {
+        width: 500px;
+        height: 600px;
+    }
+
+    .bottom-content-description
+    {
+        margin-top: 30%;
+        font-size: 51px;
+    }
+
+}
+
+@media screen and (max-width: 1240px) 
+{
+    .top-content-description
+    {
+        font-size: 41px;
+        margin-left: 0;
+    }
+
+    .portrait-image
+    {
+        width: 400px;
+        height: 600px;
+        margin-left: 50px;
+        margin-right: 40px;
+    }
+
+    .accomplishment-image
+    {
+        width: 400px;
+        height: 500px;
+        margin-right: 50px;
+    }
+
+    .middle-content-description
+    {
+        font-size: 35px;
+        margin-left: 60px;
+        margin-top: 125px;
+        margin-right: 10px;
+    }
+
+    .middle-content-button
+    {
+        width: 400px;
+        height: 75px;
+        margin-left: 20%;
+    }
+
+    .hobby-image
+    {
+        width: 400px;
+        height: 500px;
+    }
+
+    .bottom-content-description
+    {
+        margin-top: 40%;
+        font-size: 41px;
+    }
+}
+
+@media screen and (max-width: 940px) 
+{
+    .top-content-description
+    {
+        font-size: 31px;
+        margin-left: 0;
+    }
+
+    .portrait-image
+    {
+        width: 300px;
+        height: 500px;
+        margin-left: 50px;
+        margin-right: 40px;
+    }
+
+    .accomplishment-image
+    {
+        width: 300px;
+        height: 400px;
+        margin-right: 50px;
+    }
+
+    .middle-content-description
+    {
+        font-size: 25px;
+        margin-left: 60px;
+        margin-top: 125px;
+        margin-right: 10px;
+    }
+
+    .middle-content-button
+    {
+        width: 250px;
+        height: 50px;
+        margin-left: 30%;
+        font-size: 23px;
+    }
+
+    .hobby-image
+    {
+        width: 300px;
+        height: 400px;
+        margin-right: 75px;
+    }
+
+    .bottom-content-description
+    {
+        margin-top: 40%;
+        margin-left: 0;
+        font-size: 31px;
+    }
+}
+
+@media screen and (max-width: 684px) and (min-width: 320px)
+{
+    .nav
+    {
+        font-size: 20px;
+    }
+
+    .top-content
+    {
+        grid-template-areas: 'image image image image'
+                             'description description description description';
+    }
+
+    .top-content-description
+    {
+        font-size: 31px;
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+
+    .portrait-image
+    {
+        width: 350px;
+        height: 500px;
+        margin-left: 20%;
+        margin-right: 0;
+    }
+
+    .middle-content
+    {
+        grid-template-areas: 'image image image image'
+                             'description description description description'
+                             'button button button button';
+    }
+
+    .accomplishment-image
+    {
+        width: 350px;
+        height: 400px;
+        margin-right: 0;
+        margin-left: 20%;
+    }
+
+    .middle-content-description
+    {
+        font-size: 29px;
+        margin-left: 40px;
+        margin-top: 25px;
+    }
+
+    .middle-content-button
+    {
+        width: 250px;
+        height: 50px;
+        margin-left: 65%;
+        font-size: 23px;
+    }
+
+    .bottom-content
+    {
+        grid-template-areas: 'image image image image'
+                             'description description description description';
+    }
+
+    .hobby-image
+    {
+        width: 300px;
+        height: 375px;
+        margin-top: 50px;
+        margin-left: 20%;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+    .bottom-content-description
+    {
+        margin-top: 25px;
+        margin-left: 70px;
+        font-size: 23px;
+    }
+}
+
