@@ -18,9 +18,65 @@ body
     grid-area: header;
 }
 
+.header
+{
+    grid-area: header;
+}
+
+.header-link
+{
+    text-decoration: none;
+    padding: 20px;
+    color: #bceae7;
+    transition: 0.3s;
+    margin: 0 6px;
+    z-index: 1;
+    position: relative;
+}
+
+.header-link::before
+{
+    content: "";
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background-color: #d3c6b7;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.header-link:not(.is-active):hover::before
+{
+    opacity: 1;
+    bottom: 0;
+}
+
+.header-link:not(.is-active):hover
+{
+    color: #48968f;
+}
+
+.nav-indicator
+{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    transition: 0.4s;
+    height: 5px;
+    z-index: 1;
+    border-radius: 8px 8px 0 0;
+}
+
 .nav
 {
-    padding: 0.5em;
+    display: inline-flex;
+    position: relative;
+    overflow: hidden;
+    width: 94.2%;
+    padding: 0 55px;
     text-align: center;
     font-size: 30px;
     background-color: #01383D;
@@ -31,19 +87,6 @@ body
 .nav li
 {
     list-style-type: none;
-    display: inline;
-    padding: 0.2em;   
-}
-
-.header-link
-{
-    text-decoration: none;
-    color: #bceae7;
-}
-
-.header-link:hover
-{
-    color: #8cb6b3; 
 }
 
 .content
